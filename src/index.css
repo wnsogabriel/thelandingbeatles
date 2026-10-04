@@ -92,6 +92,7 @@ body {
   to   { transform: translateX(-20%); }
 }
 
+
 .navbar-beatles {
   background-color: var(--preto);
 }

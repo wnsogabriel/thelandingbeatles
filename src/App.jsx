@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Ticker from "./components/Ticker"
+import Musicas from "./components/Musicas"
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <Ticker />
+      <Musicas />
       <Footer />  
     </>
   )
