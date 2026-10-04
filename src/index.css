@@ -71,6 +71,27 @@ body {
   margin-right: 1rem;
 }
 
+.ticker{
+  background-color: var(--preto);
+  color: var(--branco);
+  font-weight: 600;
+  padding: 1.5rem;
+  overflow: hidden;
+}
+
+.ticker-fita{
+  display: flex;
+  gap: 1.5rem;
+  white-space: nowrap;
+  animation: rolar 15s linear infinite;
+  width: max-content;
+}
+
+@keyframes rolar {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-20%); }
+}
+
 .navbar-beatles {
   background-color: var(--preto);
 }
