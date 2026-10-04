@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import Ticker from "./components/Ticker"
 import Musicas from "./components/Musicas"
 import Resultados from "./components/Resultados"
+import AbbeyRoad from "./components/AbbeyRoad"
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Ticker />
       <Musicas />
       <Resultados />  
+      <AbbeyRoad />
       <Footer />  
     </>
   )
