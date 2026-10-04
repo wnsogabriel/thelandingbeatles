@@ -28,9 +28,10 @@ body {
 
 .destaque {
   font-family: var(--fonte-destaque);
-  font-size: 2rem;
-  line-height: 1.5;
-  font-style: italic;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .titulo {
@@ -46,17 +47,41 @@ body {
   line-height: 1.5;
 }
 
+.subtitle-hero {
+  font-family: var(--fonte-paragrafos);
+  letter-spacing: -0.7px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  /* 28.805px */
+}
+
+.subtitle-hero2 {
+  font-family: var(--fonte-paragrafos);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 90.017%;
+  /* 14.403px */
+}
+
+#inicio {
+  padding-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .navbar-beatles {
   background-color: var(--preto);
 }
 
 .btn-primary {
-  --bs-btn-bg: var(--vermelho);
-  --bs-btn-border-color: var(--vermelho-bold);
-  --bs-btn-hover-bg: var(--vermelho-bold);
-  --bs-btn-hover-border-color: var(--vermelho-bold);
-  --bs-btn-active-bg: var(--vermelho);
-  --bs-btn-active-border-color: var(--vermelho-bold);
+  --bs-btn-bg: var(--preto);
+  --bs-btn-border-color: var(--cinza);
+  --bs-btn-hover-bg: var(--cinza);
+  --bs-btn-hover-border-color: var(--cinza);
+  --bs-btn-active-bg: var(--preto);
+  --bs-btn-active-border-color: var(--cinza);
 }
 
 .footer-beatles {
