@@ -5,7 +5,7 @@ function ChamadaFinal() {
         <h2 className="display-4 fw-bold">
           Agora você já sabe de onde conhece.
         </h2>
-        <p className="display fs-5">
+        <p className="fs-5">
           Os Beatles transcenderam a música, influenciando moda, comportamento e
           gerações. Sua obra continua atual e inspiradora.
         </p>
