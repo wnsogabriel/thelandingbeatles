@@ -163,3 +163,7 @@ body {
   --bs-accordion-active-color: var(--preto);
   --bs-accordion-btn-focus-box-shadow: none;
 }
+
+section {
+  scroll-margin-top: 90px;
+}
