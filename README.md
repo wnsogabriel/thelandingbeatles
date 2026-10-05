@@ -51,7 +51,7 @@ npm run preview
 | Hero | `Hero` | `index.html` (no original era só uma imagem, virou título, texto e botão a partir do protótipo) |
 | Faixa de músicas | `Ticker` | nova, criada a partir do protótipo |
 | Você já ouviu essa? | `Musicas` | nova, com estrutura de vídeos baseada no final do `legado.html` |
-| Números | `Resultados` | `index.html` (faixa preta com os números) |
+| Resultados | `Resultados` | `index.html` (faixa preta com os números) |
 | Abbey Road | `AbbeyRoad` | nova, criada a partir do protótipo |
 | Curiosidades | `Curiosidades` | `curiosidades.html` (7 perguntas originais, mais 3 novas) |
 | Chamada final | `ChamadaFinal` | nova, criada a partir do protótipo |
