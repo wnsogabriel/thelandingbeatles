@@ -8,7 +8,7 @@ function Musicas() {
         <div className="row">
           {musicas.map((musica) => (
             <div key={musica.id} className="col-md-6 py-3">
-              <div className="ratio ratio-16x9">
+              <div className="ratio ratio-16x9 hoverzada">
                 <iframe
                   src={`https://www.youtube.com/embed/${musica.id}`}
                   title={musica.titulo}
