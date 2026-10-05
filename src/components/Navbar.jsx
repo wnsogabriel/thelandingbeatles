@@ -22,7 +22,7 @@ function Navbar() {
                     <ul className="navbar-nav ms-auto">
                         {menu.map(item => (
                             <li key={item.nome} className="nav-item">
-                                <a className="nav-link" href={item.url}>{item.nome}</a>
+                                <a className="nav-link" href={item.url} onClick={() => setAtivo(false)}>{item.nome}</a>
                             </li>
                         ))}
                     </ul>
