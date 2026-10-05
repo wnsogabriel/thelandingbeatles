@@ -2,7 +2,7 @@ import musicas from "../data/musicas";
 
 function Musicas() {
   return (
-    <section id="musicas" className="py-3">
+    <section id="musicas" className="py-4">
       <div className="container">
         <h2 className="display-4 fw-bold text-center">Você já ouviu essa?</h2>
         <div className="row">

@@ -7,7 +7,7 @@ function Curiosidades() {
   return (
     <section id="curiosidades">
       <div className="accordion">
-        <div className="container py-3">
+        <div className="container py-4">
           {curiosidades.map((item, pos) => (
             <div className="accordion-item" key={item.pergunta}>
               <button

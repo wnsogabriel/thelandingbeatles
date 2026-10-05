@@ -1,7 +1,7 @@
 import resultados from "../data/resultados";
 function Resultados() {
 return (
-     <section id="resultados" className="container-fluid faixa-preta text-white py-5">
+     <section id="resultados" className="container-fluid faixa-preta text-white py-4">
     <div className="container text-center">
         <div className="row g-4 mb-4">
             {resultados.map((resultado) => (
