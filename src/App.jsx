@@ -6,6 +6,7 @@ import Musicas from "./components/Musicas"
 import Resultados from "./components/Resultados"
 import AbbeyRoad from "./components/AbbeyRoad"
 import Curiosidades from "./components/Curiosidades"
+import ChamadaFinal from "./components/ChamadaFinal"
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Resultados />  
       <AbbeyRoad />
       <Curiosidades />
+      <ChamadaFinal />
       <Footer />  
     </>
   )
