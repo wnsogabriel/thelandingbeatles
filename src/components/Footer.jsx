@@ -17,7 +17,7 @@ function Footer() {
                         </p>
                     </div>
                     <div className="col-md-5">
-                        <ul className="list-unstyled">
+                        <ul className="list-unstyled links-footer">
                             {menu.map(item => (
                                 <li key={item.nome} className="nav-item">
                                     <a className="nav-link" href={item.url}>{item.nome}</a>
