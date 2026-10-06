@@ -1,7 +1,7 @@
 function AbbeyRoad() {
     return (
         <section id="abbey-road">
-            <img src="/img/abbey-road-vazia.png" className="img-fluid" alt="Foto da Abbey Road vazia" />
+            <img src="/img/abbey-road-vazia.png" className="img-fluid w-100" alt="Foto da Abbey Road vazia" />
             <div className="container">
                 <h2 className="display-5 fw-bold text-center py-3">Você reconhece este lugar?</h2>
                 <div className="row gy-4">
